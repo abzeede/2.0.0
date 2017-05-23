@@ -92,6 +92,11 @@ function Speaker ({ name, title, photo, description }) {
           height: 80px;
           border: 3px solid white;
           border-radius: 50%;
+          transition: 0.2s 0s ease-in-out;
+        }
+        img:hover {      
+          transform: scale(1.1);
+          box-shadow: 0 3px 6px 0 rgba(51,51,51,.298039);
         }
         h3 {
           margin: 0;
