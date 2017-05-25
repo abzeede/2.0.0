@@ -5,7 +5,6 @@ eslint
 */
 
 import { scroller } from 'react-scroll'
-import ScrollToTopButton from './ScrollToTopButton'
 
 const isKeyPressedWithClick = (event) => event.ctrlKey || event.altKey || event.shiftKey || event.metaKey
 const isExternal = (targetUrl) => {
@@ -36,7 +35,6 @@ export default function SmoothScrollContainer ({ children }) {
   return (
     <div onClick={handleLinkClick}>
       {children}
-      <ScrollToTopButton />
     </div>
   )
 }
