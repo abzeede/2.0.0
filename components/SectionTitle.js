@@ -7,6 +7,7 @@ export default function SectionTitle ({ children }) {
           font-size: 36px;
           line-height: 48px;
           text-transform: uppercase;
+          text-align: center;
           margin: 0 0 30px;
         }
       `}</style>
